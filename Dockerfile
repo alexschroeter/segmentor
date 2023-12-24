@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM rocm/tensorflow:rocm5.7-tf2.13-dev
 
 
 RUN pip install stardist gputools edt 
